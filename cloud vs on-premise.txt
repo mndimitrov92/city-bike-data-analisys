@@ -1,0 +1,42 @@
+Question: Think about an architecture for this use case, so that we can run it in production. You can choose between Cloud and On-Premise. (You dont have to implement it).
+
+Response:
+
+Considering the criteria below, when handling sensitive information the on-premise approach is more suitable as it's more secure and all the processes are done within the company. 
+The cloud solution is more flexible and scaling would be easier and cheaper. For the usecase in the assignment, given that there is no sensitive information being used a cloud solution would be the better approach in my opinion
+as scaling of the usecase would be more efficient and securitywise the cloud should provide sufficient security but.
+Processing the data, in my view, could be done in batches. 
+
+
+Deployment
+    On-Premise
+        + the deployment would happen on the company servers and all processes are handled within the company.
+    Cloud
+        + installation and configuration of an application could be easier.
+        + it could be scaled more easily by just adding/removing resources when needed.
+---------------
+Control
+    On-Premise
+        + control and hanlding/managing of the data is a responsibility of the company.
+    Cloud
+        - the data and and encryption keys are in the hands of the cloud provider so the company does not have full control of it's data
+---------------
+Security
+    On-Premise
+        + more secure because all the information is stored and managed in-house and the company is handling it's level of security.
+    Cloud
+        - There is a possibility for cloud breaches and sensitive information being stolen. 
+        + regular back-ups of the data
+---------------
+Regulatory Compliance
+    On-Premise
+        + the regulatory compliance is in the hands of the company.
+    Cloud
+        - the company needs to assess and choose a cloud provider that is compliant to all the needed regulations within the region.
+---------------
+Cost
+    On-Premise
+        - maintenance and scaling would need to be handled by the company which would be more expensive and rigid. 
+    Cloud
+        + the cloud provider is responsible for the maintenance and servers. The company would pay only for the storage/facilities that it actually needs.
+
